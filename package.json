@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "lite-server src"
+  },
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
