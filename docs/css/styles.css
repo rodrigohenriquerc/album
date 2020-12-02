@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0E0F11;
+}
+
+.container {
+  width: 100%;
+  max-width: 1800px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
