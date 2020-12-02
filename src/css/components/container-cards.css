@@ -1,8 +1,26 @@
 .container__cards {
   width: 100%;
+  max-width: 1440px;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .container__cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3rem 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container__cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3rem 2rem;
+  }
 }

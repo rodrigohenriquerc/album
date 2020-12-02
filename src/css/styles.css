@@ -9,4 +9,6 @@ body {
   width: 100%;
   max-width: 1800px;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
